@@ -199,6 +199,13 @@ a:focus {
   display: none;
 }
 
+.dropdown:hover > ul,
+ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
 .dropdown .dropbtn {
   /*font-size: 16px;  */
   border: none;
