@@ -220,14 +220,15 @@ ul li ul {
   opacity: 0;
   position: absolute;
   transition: all 0.5s ease;
-  /*margin-top*/padding: .5rem;
-  /*left: 10%;*/
+
+  left: 10%;
   display: none;
 }
 
 ul li:hover > ul,
 ul li:focus-within > ul,
 ul li ul:hover {
+	  margin-top: .2rem;
   visibility: visible;
   /*opacity: 1;*/
   display: block;
