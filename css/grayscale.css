@@ -226,10 +226,13 @@ ul li ul {
 }
 
 ul li:hover > ul,
+ul li:focus-within > ul,
 ul li ul:hover {
   visibility: visible;
-  opacity: 1;
-  display: block;
+  /*opacity: 1;*/
+  display: block;-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
 }
 
 ul li ul li {
