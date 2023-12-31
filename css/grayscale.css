@@ -196,7 +196,7 @@ a:focus {
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
+  /*font-size: 16px;  */
   border: none;
   outline: none;
   color: white;
@@ -239,7 +239,7 @@ a:focus {
 .intro .intro-body .brand-heading {
     font-size: 40px;
     font-weight: 550;
-    color: black;
+    color: white;
 }
 
 .intro .intro-body .intro-text {
