@@ -339,7 +339,7 @@ ul li ul li {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 150px;
+        padding-top: 200px;
     }
 
     .offerings-section {
@@ -884,4 +884,5 @@ body {
   font-weight: 900;
   font-size: 2.7rem;
   max-width: 20ch;
+  line-height: 1.2
 }
