@@ -633,6 +633,7 @@ body {
 .card-title {
   margin-top: .75rem;
   margin-bottom: .75rem;
+  line-height: 1.2;
 }
 
 .card-subtitle {
@@ -884,5 +885,5 @@ body {
   font-weight: 900;
   font-size: 2.7rem;
   max-width: 20ch;
-  line-height: 1.2;
+  //line-height: 1.2;
 }
