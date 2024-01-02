@@ -601,7 +601,7 @@ body {
   background-color: $card-bg;
   background-clip: border-box;
   border: 2px solid black;
-  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.15);
   @include border-radius($card-border-radius);
 
   > hr {
@@ -877,10 +877,4 @@ body {
       margin-bottom: -$card-border-width;
     }
   }
-}
-
-//Card Shadow
-
-.shadow {
-	box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
