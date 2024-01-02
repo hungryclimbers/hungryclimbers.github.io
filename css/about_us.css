@@ -225,12 +225,8 @@ ul li ul li {
     width: 100%;
     height: auto;
     padding: 100px 0;
-    text-align: center;
-    color: #ffc99d;
-    /*background: url(../assets/img/Team.png) no-repeat bottom center scroll;
-    background-attachment:fixed;
-    background-position: top;
-    background-color: #000;*/
+    //text-align: center;
+    //color: #ffc99d;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -316,7 +312,7 @@ ul li ul li {
 }
 
 .content-section {
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .booking-section {
@@ -343,7 +339,7 @@ ul li ul li {
     }
 
     .offerings-section {
-        //padding: 30px 0;
+        padding: 30px 0;
     }
 
     #map {
