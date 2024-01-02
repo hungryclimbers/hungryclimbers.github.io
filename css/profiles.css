@@ -59,9 +59,7 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #008080; /*#fff*/
-    background-color: rgb(255, 248, 220); /*#ffc99d; #000*/
-    /*max-width: 55rem;
-    padding: 2rem 1.5rem;*/
+    background-color: rgb(255, 248, 220);
 }
 
 html {
@@ -225,12 +223,8 @@ ul li ul li {
     width: 100%;
     height: auto;
     padding: 100px 0;
-    text-align: center;
-    color: #ffc99d;
-    /*background: url(../assets/img/Team.png) no-repeat bottom center scroll;
-    background-attachment:fixed;
-    background-position: top;
-    background-color: #000;*/
+    //text-align: center;
+    //color: #ffc99d;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -324,7 +318,7 @@ ul li ul li {
     padding: 50px 0;
     color: #fff;
     /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll; */
-    background-color: #ffc99d; /* #000; */
+    background-color: #ffc99d;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -339,7 +333,7 @@ ul li ul li {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-top: 200px;
     }
 
     .offerings-section {
@@ -876,10 +870,4 @@ body {
       margin-bottom: -$card-border-width;
     }
   }
-}
-
-//Card Shadow
-
-.shadow {
-	box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
