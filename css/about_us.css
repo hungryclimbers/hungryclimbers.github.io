@@ -631,7 +631,8 @@ body {
 }
 
 .card-title {
-  margin-bottom: $card-spacer-y;
+  margin-top: .75rem;
+  margin-bottom: .75rem;
 }
 
 .card-subtitle {
