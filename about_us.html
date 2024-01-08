@@ -26,9 +26,12 @@
     <script src="js/jquery.js"></script>
     <script> 
     $(function(){
-      $("#includedContent").load("nav.html"); 
+      $("#nav").load("nav.html"); 
     });
-    </script> 
+    $(function(){
+      $("#footer").load("../footer.html"); 
+    });
+    </script>
         
     <!-- Favicon icon -->
     <link rel="icon" href="assets/favicon.ico">
@@ -38,7 +41,7 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
     <!-- Navigation -->
-    <div id="includedContent"></div>
+    <div id="nav"></div>
 
     <!-- Session Offerings -->
     <section id="offerings" class="content-section">
@@ -170,37 +173,8 @@
     </header>
     
    
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact Us</h2>
-                <p>Email to schedule or reschedule a session, provide feedback, or ask any questions!</p>
-                <p> <a href="mailto:hungryclimbers.co@gmail.com">hungryclimbers.co@gmail.com</a> </p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://www.instagram.com/hungryclimbers" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/@HungryClimbersCo." class="btn btn-default btn-lg"><i class="fa fa-youtube fa-fw"></i> <span class="network-name">Youtube</span></a>
-                    </li>
-                    <li>
-                        <a href="https://www.spotify.com/" class="btn btn-default btn-lg"><i class="fa fa-spotify fa-fw"></i> <span class="network-name">Podcast</span></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Map Section -->
-    <div id="map"></div>
-
     <!-- Footer -->
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Taejun Kim 2023</p>
-        </div>
-    </footer>
+    <div id="footer"></div>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
