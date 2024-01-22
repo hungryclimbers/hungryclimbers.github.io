@@ -439,9 +439,9 @@ body {
 
 /* Utilities */
 
-.grid-container{
-  grid-column-gap:2%
-}
+/*.grid-container{
+  grid-column-gap: 2%;
+}*/
 
 .auto-grid {
   display: grid;
@@ -450,7 +450,7 @@ body {
     minmax(var(--auto-grid-min-size, 14rem), 1fr)
   );
   /*grid-gap: var(--auto-grid-gap, 0);*/
-  grid-column-gap: 2%
+  grid-column-gap: 200px;
   padding: 0;
 }
 
