@@ -439,9 +439,10 @@ body {
 
 /* Utilities */
 
-/*.grid-container{
-  grid-column-gap: 2%;
-}*/
+.grid-container{
+  grid-gap: var(--auto-grid-gap, 0);
+  grid-column-gap: 200px;
+}
 
 .auto-grid {
   display: grid;
