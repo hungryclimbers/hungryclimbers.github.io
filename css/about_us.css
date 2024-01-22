@@ -445,7 +445,7 @@ body {
     minmax(var(--auto-grid-min-size, 14rem), 1fr)
   );
   /*grid-gap: var(--auto-grid-gap, 0);*/
-  grid-column-gap: 20% 
+  grid-column-gap: 100 px 
   padding: 0;
 }
 
@@ -455,7 +455,7 @@ body {
 
 /* Composition */
 .team {
-  --flow-space: 2em;
+  --flow-space: 1em;
 }
 
 /* Blocks */
