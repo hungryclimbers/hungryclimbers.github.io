@@ -445,7 +445,7 @@ body {
     minmax(var(--auto-grid-min-size, 14rem), 1fr)
   );
   /*grid-gap: var(--auto-grid-gap, 0);*/
-  grid-column-gap: 100 px 
+  grid-column-gap: 100px 
   padding: 0;
 }
 
