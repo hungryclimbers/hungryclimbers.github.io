@@ -444,7 +444,7 @@ body {
     auto-fill,
     minmax(var(--auto-grid-min-size, 14rem), 1fr)
   );
-  /*grid-gap: var(--auto-grid-gap, 0);*/
+  grid-gap: var(--auto-grid-gap, 0);
   grid-column-gap: 2% 
   padding: 0;
 }
@@ -540,7 +540,7 @@ body {
 
 .profile h2 {
   font-size: 1.7rem;
-  line-height: 1.2;
+  //line-height: 1.2;
   font-weight: 900;
   letter-spacing: 0.03ch;
   transition: 300ms transform ease;
