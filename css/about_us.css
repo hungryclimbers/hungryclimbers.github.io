@@ -467,7 +467,7 @@ body {
   position: relative;
   padding: 1.5rem;
   color: #ffc99d;
-  backface-visibility: hidden;
+  backface-visibility: visible;
   text-decoration: none;
   overflow: hidden;
 }
