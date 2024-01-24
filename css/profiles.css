@@ -454,6 +454,8 @@ body {
 
 /* Blocks */
 .profile {
+	min-width: 576px;
+	min-height: 850px;
 }
 
 .profile img {
