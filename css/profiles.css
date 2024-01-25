@@ -121,7 +121,7 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    text-shadow: .1rem .2rem .35rem black;/*rgba(0, 0, 0, 0.25);*/
+    text-shadow: .1rem .2rem .35rem gray;/*rgba(0, 0, 0, 0.25);*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000;
 }
