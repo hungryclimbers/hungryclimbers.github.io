@@ -454,7 +454,7 @@ body {
 
 /* Blocks */
 .profile {
-	min-width: 450px;/*540px;*/
+	min-width: 350px;/*540px;*/
 	min-height: 850px;
 }
 
