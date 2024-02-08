@@ -68,6 +68,7 @@ html {
 }
 
 h1 {
+  margin: auto;
   font-weight: 900;
   font-size: 2.7rem;
   max-width: 20ch;
