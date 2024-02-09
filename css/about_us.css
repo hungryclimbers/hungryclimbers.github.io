@@ -888,3 +888,42 @@ body {
   max-width: 20ch;
   //line-height: 1.2;
 }
+
+/* Container box to set the sides of a cube relative to */
+.cube {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	height: 100%;
+	background-color: ;
+	-webkit-transition: -webkit-transform 1s;
+	transition: transform 1s; /* Animate the transform properties */
+
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d; /* <-NB */
+}
+
+/* The two faces of the cube */
+.front,.bottom {
+  display: flex;
+  align-items: flex-end;
+	height: 100%;
+}
+
+/* Position the faces */
+.front {
+	-webkit-transform: translateZ(100px);
+	transform: translateZ(100px);
+}
+
+.bottom {
+	-webkit-transform: rotateX(-90deg) translateZ(-100px);
+	transform: rotateX(-90deg) translateZ(-100px);
+}
+
+/* Rotate the cube */
+.cube:hover {
+	-webkit-transform: rotateX(90deg);
+	transform: rotateX(90deg); /* Text bleed at 90º */
+}
+
