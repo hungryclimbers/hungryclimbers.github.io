@@ -891,16 +891,14 @@ body {
 
 /* Container box to set the sides of a cube relative to */
 .cube {
-	width: 100%;
-	text-align: center;
-	margin: 0 auto;
-	height: 100%;
-	background-color: ;
-	-webkit-transition: -webkit-transform 1s;
-	transition: transform 1s; /* Animate the transform properties */
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  -webkit-transition: -webkit-transform 1s;
+  transition: transform 1s; /* Animate the transform properties */
 
-	-webkit-transform-style: preserve-3d;
-	transform-style: preserve-3d; /* <-NB */
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d; /* <-NB */
 }
 
 /* The two faces of the cube */
