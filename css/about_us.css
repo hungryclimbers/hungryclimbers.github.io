@@ -452,6 +452,10 @@ body {
   margin-top: var(--flow-space, 1em);
 }
 
+.center-align {
+  margin: auto;
+}
+
 /* Composition */
 .team {
   --flow-space: 1em;
