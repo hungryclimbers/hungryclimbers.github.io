@@ -448,12 +448,12 @@ body {
   padding: 0;
 }
 
-.flow > * + * {
-  margin-top: var(--flow-space, 1em);
+.auto-grid .auto-grid-center{
+  justify-content: center;
 }
 
-.center-align {
-  margin: auto;
+.flow > * + * {
+  margin-top: var(--flow-space, 1em);
 }
 
 /* Composition */
