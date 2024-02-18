@@ -526,16 +526,16 @@ body {
 }
 
 .card-body {
-  // Enable `flex-grow: 1` for decks and groups so that card blocks take up
-  // as much space as possible, ensuring footers are aligned to the bottom.
+  /* Enable `flex-grow: 1` for decks and groups so that card blocks take up
+  as much space as possible, ensuring footers are aligned to the bottom. */
   flex: 1 1 auto;
-  padding: 1.25rem;
+  /*padding: 1.25rem;*/
   color: $card-color;
 }
 
 .card-title {
-  margin-top: .75rem;
-  margin-bottom: .75rem;
+  /*margin-top: .75rem;
+  margin-bottom: .75rem;*/
   line-height: 1.2;
 }
 
