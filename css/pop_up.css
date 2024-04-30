@@ -92,7 +92,7 @@ p {
     line-height: 1.5;
 }
 
-span{
+span {
     font-weight: bold;
 	font-size: 200%;
 }
@@ -110,6 +110,7 @@ a {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+	text-size: 1.5x;
 }
 
 a:hover,
