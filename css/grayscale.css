@@ -350,6 +350,8 @@ ul li ul li {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    font-weight: 150%;
+    font-size: 150%;
 }
 
 #map {
