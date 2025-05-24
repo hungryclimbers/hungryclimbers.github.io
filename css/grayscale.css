@@ -348,7 +348,7 @@ ul li ul li {
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
+    background-size: contain;
     -o-background-size: cover;
     font-weight: 150%;
     font-size: 150%;
@@ -360,10 +360,10 @@ ul li ul li {
     margin-top: 100px;
 }
 
-/*@media(min-width:767px) {
+@media(min-width:767px) {
     .content-section {
         padding-top: 250px;
-    }*/
+    }
 
     .download-section {
         padding: 100px 0;
