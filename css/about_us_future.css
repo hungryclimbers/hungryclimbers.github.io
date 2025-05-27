@@ -450,7 +450,7 @@ body {
 }
 
 .container {
-  display: block;
+  display: flex;
   width: 90vw;
 }
 
