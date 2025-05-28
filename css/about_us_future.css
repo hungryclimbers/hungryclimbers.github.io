@@ -444,6 +444,9 @@ body {
   width: 90vw;
 }
 
+.card-expanding {
+		padding: 50px 0;
+}
 
 .panel {
   background-size: auto 100%;
