@@ -439,14 +439,15 @@ body {
   box-sizing: border-box; /* to avoid width problems if padding */
 }
 
-.container {
+.container-card-expanding {
   display: flex;
   width: 90vw;
-}
-
-.card-expanding {
 		padding: 50px 0;
 }
+
+/*.card-expanding {
+		padding: 50px 0;
+}*/
 
 .panel {
   background-size: auto 100%;
