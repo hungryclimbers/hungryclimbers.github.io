@@ -108,7 +108,7 @@ span{
 }
 
 a {
-    color: #ffc99d;
+    color: #42dca3;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -117,7 +117,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #ffc99d; /*#1d9b6c;*/
+    color: #1d9b6c;
 }
 
 .light {
