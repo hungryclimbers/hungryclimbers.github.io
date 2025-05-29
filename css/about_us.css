@@ -62,7 +62,7 @@ body {
     background-color: #000; /*#ffc99d; #000*/
     /*max-width: 55rem;
     padding: 2rem 1.5rem;*/
-    /*overflow: hidden;*/
+    overflow-x: hidden;
 				
 }
 
