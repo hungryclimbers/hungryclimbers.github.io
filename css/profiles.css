@@ -58,7 +58,7 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #42dca3;
-    background-color: #5a4840 /*rgb{120,82,64}*/;
+    background-color: #5a4840;
 }
 
 html {
@@ -110,7 +110,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #ffc99d; /*#1d9b6c;*/
+    color: #1d9b6c;
 }
 
 .light {
