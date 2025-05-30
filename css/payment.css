@@ -428,14 +428,13 @@ body {
 .container-card-expanding {
   display: flex;
   width: 80vw;
-  /*padding: 75px 0;*/
 }
 
 .panel {
   background-size: auto 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #232323;
+  background-color: #000;
   height: 80vh;
   border-radius: 50px;
   
@@ -476,12 +475,6 @@ body {
     display: none;*/
   }
 }
-
-
-.container-space {
-	padding: 125px;
-}
-
 
 /* Utilities */
 .auto-grid {
@@ -975,4 +968,8 @@ body {
 .cube:hover {
 	-webkit-transform: rotateX(90deg);
 	transform: rotateX(90deg); /* Text bleed at 90º */
+}
+
+.container-space {
+	padding: 125px 0 0;
 }
