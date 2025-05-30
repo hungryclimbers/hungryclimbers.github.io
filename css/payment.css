@@ -428,6 +428,7 @@ body {
 .container-card-expanding {
   display: flex;
   width: 80vw;
+  padding: 75px 0;
 }
 
 .panel {
