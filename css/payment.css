@@ -431,7 +431,29 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
+/* Expanding Card Style! */
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
 
+* {
+  box-sizing: border-box; /* to avoid width problems if padding */
+}
+
+.container-card-expanding {
+  display: flex;
+  width: 90vw;
+  padding: 75px 0;
+}
+
+.panel {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000;
+  height: 80vh;
+  border-radius: 50px;
+  
+  flex: 0.5;
+  margin: 10px;
   position: relative;
   transition: flex 0.7s ease-in;
   -webkit-transition: all 700ms ease-in;
