@@ -431,8 +431,7 @@ body {
 
 .container-card-expanding {
   display: flex;
-  width: 90vw;
-  padding: 75px 0;
+  width: 80vw;
 }
 
 .panel {
@@ -976,5 +975,5 @@ body {
 }
 
 .container-space {
-	padding: 75px 0 0;
+	padding: 125px 0 0;
 }
