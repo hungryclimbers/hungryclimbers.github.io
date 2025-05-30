@@ -62,6 +62,8 @@ body {
     background-color: #232323;
     /*max-width: 55rem;
     padding: 2rem 1.5rem;*/
+    /*overflow-x: hidden;*/
+				
 }
 
 html {
@@ -231,7 +233,7 @@ ul li ul li {
     height: auto;
     padding: 100px 0;
     //text-align: center;
-    //color: #ffc99d;
+    color: #42dca3;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -318,18 +320,6 @@ ul li ul li {
 
 .content-section {
     padding-top: 100px;
-}
-
-.booking-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll; */
-    background-color: #ffc99d; /* #000; */
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 #map {
@@ -431,6 +421,7 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
+
 /* Expanding Card Style! */
 @import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
 
@@ -489,3 +480,4 @@ body {
     display: none;*/
   }
 }
+
