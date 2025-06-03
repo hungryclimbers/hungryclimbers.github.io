@@ -455,7 +455,7 @@ body {
 /* Blocks */
 .profile {
   min-width: 380px;/*540px;*/
-  min-height: 380px;
+  min-height: 450px;
 }
 
 .profile img {
@@ -521,6 +521,7 @@ body {
   flex: 1 1 auto;
   padding: $card-spacer-x;
   color: $card-color;
+		text-align: center;
 }
 
 .card-title {
