@@ -1,2 +1,2 @@
 # hungryclimbers.github.io
-Company Website
+Hungry Climbers Coaching and Community Website
