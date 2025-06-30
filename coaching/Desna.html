@@ -1,59 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desna's Coaching | Linktree</title>
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/img/Taejun_Luffy.jpg"/>
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Core theme CSS -->
+    <link rel="stylesheet" href="css/linktree_style.css">
+  </head>
 
-<head>
+  <body>
+    <!-- Parallax Pixel Background Animation -->
+    <section class="animated-background">
+      <div id="stars1"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </section>
+    <!-- End of Parallax Pixel Background Animation -->
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Desna's Coaching Options">
-    <meta name="author" content="Taejun Kim">
+    <a id="profilePicture" href="#popup">
+      <img src="../assets/img/ToughLove2025_086.jpg" alt="Profile Picture">
+    </a>
 
-    <title>Coach Desna - Coaching Options</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="../css/pop_up.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-
-    <!-- jQuery -->
-    <script src="../js/jquery.js"></script>
-        
-    <!-- Favicon icon -->
-    <link rel="icon" href="../assets/favicon.ico">
-
-</head>
-
-<body id="page-top" data-spy="scroll">
-    <header id="about" class="intro intro-body content-section">
-        <div>
-            <h2>Choose your session!</h2>
-            <ul>
-                <p>
-                    <li>
-                        <span classs="left-align">Monthly Package Plan - <br>Personalized package with a 1:1 session each week</span><br>
-                        <a href="https://cal.com/Desna/monthly-coaching-60min">60 min</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="https://cal.com/Desna/monthly-coaching-90min">90 min</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="https://cal.com/Desna/monthly-coaching-120min">120 min</a>
-                    </li>
-                </p>
-                <p>
-                    <li>
-                        <span>Per Session - For more flexible scheduling needs, schedule 1 session at a time! Sessions available in packages of 6 & 10 for better pricing.</span><br>
-                        <a href="https://cal.com/Desna/session-coaching-60min">60 min</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="https://cal.com/Desna/session-coaching-90min">90 min</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a href="https://cal.com/Desna/session-coaching-120min">120 min</a>
-                    </li>
-                </p>
-            </ul>
+    <div class="overlay" id="popup">
+      <div class="popup">
+        <div class="popup-photo">
+          <a href="../assets/img/Desna.jpg" target="_blank">
+            <img src="../assets/img/Desna.jpg" alt="Profile Picture">
+          </a>
         </div>
-    </header>
-</body>
-    
+        <a class="popup-close" onclick="history.back()">&times;</a>
+      </div>
+    </div>
+
+    <div id="userName">
+      Hungry Climbers / Desna Uttamchandani
+    </div>
+
+    <div id="links">
+      <div id="userName">Monthly Package Plan - Personalized 4 week package with weekly 1:1 sessions</div>
+      
+      <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+      <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+      
+      <a class="link" onclick="Calendly.initPopupWidget({url: 'https://cal.com/Desna/monthly-coaching-60min'});return false;">
+          60 min
+      </a>
+      <a class="link" onclick="Calendly.initPopupWidget({url: 'https://cal.com/Desna/monthly-coaching-90min'});return false;">
+          90 min
+      </a>
+      <a class="link" onclick="Calendly.initPopupWidget({url: 'https://cal.com/Desna/monthly-coaching-120min'});return false;">
+          120 min
+      </a>
+    </div>
+  
+    <div id="links">  
+      <div id="userName">Per Session - For more flexible scheduling needs, schedule 1 session at a time! <br>Sessions available in packages of 6 & 10 for better pricing.</div>
+      
+      <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+      <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+      
+      <a class="link" onclick="Calendly.initPopupWidget({url: 'https://cal.com/Desna/session-coaching-60min'});return false;">
+          60 min session
+      </a>
+      <a class="link" onclick="Calendly.initPopupWidget({url: 'https://cal.com/Desna/session-coaching-90min'});return false;">
+          90 min session
+      </a>
+      <a class="link" onclick="Calendly.initPopupWidget({url: 'https://cal.com/Desna/session-coaching-120min'});return false;">
+          120 min session
+      </a>
+    </div>
+
+    <div id="links">  
+      <div id="userName"></div>
+      
+      <link href="" rel="stylesheet">
+      <a class="link" href="../about_us.html">Learn more about our Coaching Options</a>
+    </div>
+
+    <div id="hashtag">
+      #EatChalk❤
+    </div>
+  </body>
 </html>
