@@ -42,6 +42,15 @@
 .contact__card-item.email:before{content:"\f003"}
 .contact__card-item.email:hover{text-decoration:underline}
 
+input[type=checkbox]
+{
+  /* Half-sized Checkboxes */
+  -ms-transform: scale(.5); /* IE */
+  -moz-transform: scale(.5); /* FF */
+  -webkit-transform: scale(.5); /* Safari and Chrome */
+  -o-transform: scale(.5); /* Opera */
+  transform: scale(.5);
+
 @media screen and (max-width:1000px)
 {
 	.portfolio__item{width:170px;height:170px;
